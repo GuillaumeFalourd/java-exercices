@@ -19,12 +19,16 @@ public class Media {
         float mediaSalarial = 0;
         //variável contadora para laço
         int contadora = 0;
-         
-        quantidadeFuncionarios = Integer.parseInt(JOptionPane.showInputDialog(null,"Digite a quantidade de funcionários","Número de funcionários",JOptionPane.QUESTION_MESSAGE));
+       
+        Scanner entrada = new Scanner(System.in);
+   
+        System.out.println("Digite a quantidade de funcionários:");
+        quantidadeFuncionarios = entrada.nextInt();
          
         while (contadora < quantidadeFuncionarios){
             contadora++;
-            salarioFuncionario = Float.parseFloat(JOptionPane.showInputDialog(null,"Digite o salário do funcionário","Salário",JOptionPane.QUESTION_MESSAGE));
+            System.out.println("Digite o salário do funcionário:");
+            salarioFuncionario = entrada.nextFloat();
             totalSalarios = totalSalarios + salarioFuncionario;
         }
          
