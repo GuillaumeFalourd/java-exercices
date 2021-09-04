@@ -9,7 +9,10 @@ Programa que calcule a média de salários de uma empresa, pedindo ao usuário a
 ## Possivel Resolução
 
 ```java
-import javax.swing.JOptionPane;
+package exercicios;
+
+import java.util.Scanner;
+
 public class Media {
     public static void main(String[] args) {
  
