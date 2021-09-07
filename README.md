@@ -14,6 +14,8 @@ Esse repositório disponibiliza exercicios em Java para iniciantes, encontrados 
    - Estrutura de Repetição
      - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/5-estrutura-de-repeticao.md)
      - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/6-estrutura-de-repeticao.md)
+   - Resumo
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/7-estruturas-resumo.md)
 
 ## Fontes
 
