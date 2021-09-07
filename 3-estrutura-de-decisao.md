@@ -10,8 +10,8 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
   - Salários entre R$ 700,00 e R$ 1500,00 (incluindo), receberão aumento de 10%
   - Salários de R$ 1500,00 em diante, receberão aumento de 5% 
 Após o aumento ser realizado, informe na tela:
-O salário antes do reajuste;
-O percentual de aumento aplicado;
-O valor do aumento;
-O novo salário, após o aumento;
+    - O salário antes do reajuste;
+    - O percentual de aumento aplicado;
+    - O valor do aumento;
+    - O novo salário, após o aumento;
 - Faça um Programa que receba um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer a mensagem “valor inválido”.
