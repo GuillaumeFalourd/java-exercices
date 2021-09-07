@@ -4,9 +4,15 @@ Esse repositório disponibiliza exercicios em Java para iniciantes, encontrados 
 
 ## Exercicios
 
--
--
--
+- Básico
+   - Estrutura Sequencial
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-estrutura-sequencial.md)
+     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/2-estrutura-sequencial.md)
+   - Estrutura de Decisão
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/3-estrutura-de-decisao.md)
+     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/4-estrutura-de-decisao.md)
+   - Estrutura de Repetição
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/5-estrutura-de-repeticao.md)
 
 ## Fontes
 
