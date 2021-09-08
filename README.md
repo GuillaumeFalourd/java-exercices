@@ -4,18 +4,19 @@ Esse repositório disponibiliza exercicios em Java para iniciantes, encontrados 
 
 ## Exercicios
 
-- Básico
+- [Básico]((https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/README.md))
    - Estrutura Sequencial
-     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-estrutura-sequencial.md)
-     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/2-estrutura-sequencial.md)
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/1-estrutura-sequencial.md)
+     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/2-estrutura-sequencial.md)
    - Estrutura de Decisão
-     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/3-estrutura-de-decisao.md)
-     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/4-estrutura-de-decisao.md)
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/3-estrutura-de-decisao.md)
+     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/4-estrutura-de-decisao.md)
    - Estrutura de Repetição
-     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/5-estrutura-de-repeticao.md)
-     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/6-estrutura-de-repeticao.md)
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/5-estrutura-de-repeticao.md)
+     - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/6-estrutura-de-repeticao.md)
    - Resumo
-     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/7-estruturas.md)
+     - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/7-estruturas.md)
+     - [Desafio](https://github.com/GuillaumeFalourd/java-exercices/blob/main/BASICO/8-desafio.md)
 
 ## Fontes
 
