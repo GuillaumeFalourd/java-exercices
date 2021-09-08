@@ -1,6 +1,6 @@
 # Java Exercices
 
-Esse repositório disponibiliza exercicios em Java para iniciantes, encontrados online ou criados pelos contribuidores.
+Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados online ou criados pelos contribuidores.
 
 ## Exercicios
 
