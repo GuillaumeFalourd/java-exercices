@@ -22,3 +22,7 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
 
 - https://dev.to/guilhermemanzano/lista-de-exercicios-basicos-em-java-parte-1-5f0l
 - https://www.devmedia.com.br/forum/exercicios-de-java-basico-para-treino-com-resposta/564616
+
+## Como Contribuir?
+
+[Guias para contribuição](https://github.com/GuillaumeFalourd/java-exercices/blob/main/CONTRIBUTING.md)
