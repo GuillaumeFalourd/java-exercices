@@ -25,4 +25,4 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
 
 ## Como Contribuir?
 
-[Guias para contribuição](https://github.com/GuillaumeFalourd/java-exercices/blob/main/CONTRIBUTING.md)
+- [Guias para contribuição](https://github.com/GuillaumeFalourd/java-exercices/blob/main/CONTRIBUTING.md)
