@@ -28,15 +28,13 @@ parâmetro o CPF e não permite inserir um funcionário com o CPF repetido.
 TODO
 ```
 
-* * *
-
-- Crie um programa para gerenciar uma lista de produtos de um estabelecimento, cada produto tem um nome e um preço. No final do programa, o usuário deve decidir se irá adicionar mais de um produto, exibir todos os produtos cadastrados ou excluir um produto pelo nome.
+Crie um programa para gerenciar uma lista de produtos de um estabelecimento, cada produto tem um nome e um preço. No final do programa, o usuário deve decidir se irá adicionar mais de um produto, exibir todos os produtos cadastrados ou excluir um produto pelo nome.
 
 ```java
 TODO
 ```
 
-- Crie um programa para gerenciar uma lista de candidatos de um vestibular, cada candidato tem número de matrícula e uma nota. No final do programa, o usuário deve decidir se irá adicionar mais de um candidato, exibir todos os candidatos cadastrados ou excluir um candidato pelo número de matrícula.
+Crie um programa para gerenciar uma lista de candidatos de um vestibular, cada candidato tem número de matrícula e uma nota. No final do programa, o usuário deve decidir se irá adicionar mais de um candidato, exibir todos os candidatos cadastrados ou excluir um candidato pelo número de matrícula.
 
 ```java
 TODO
