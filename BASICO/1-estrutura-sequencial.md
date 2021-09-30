@@ -3,7 +3,7 @@
 - Faça um programa que mostre a mensagem "Alô mundo" na tela.
 
 ```java
-TODO
+System.out.print("Alô mundo");
 ```
 
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
