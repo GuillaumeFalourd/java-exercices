@@ -27,7 +27,6 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
 
 - [Guias para contribuição](https://github.com/GuillaumeFalourd/java-exercices/blob/main/CONTRIBUTING.md)
 
-
 ### Contribuidores
 
 <a href="https://github.com/GuillaumeFalourd/java-exercices/graphs/contributors">
