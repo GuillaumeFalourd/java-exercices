@@ -2,9 +2,13 @@
 
 - Faça um programa que mostre a mensagem "Alô mundo" na tela.
 
+<details>
+  <summary>Resolução</summary>
+
 ```java
 System.out.print("Alô mundo");
 ```
+</details>
 
 - Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário (variáveis declaradas).
 
