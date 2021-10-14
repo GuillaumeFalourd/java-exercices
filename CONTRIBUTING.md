@@ -16,29 +16,8 @@
 
 - Descreve as mudanças realizadas na _Pull Request_.
 
-- Quando tiver varios exercícios na mesma página, por favor, use o **spoiler** no arquivo Markdown (.md) para mostrar a resolução:
+- Quando tiver varios exercícios na mesma página, por favor, use o **spoiler** no arquivo Markdown (.md) para mostrar a resolução. [Poderão encontrar um exemplo aqui](https://gist.github.com/GuillaumeFalourd/95ffed3621c75bd8183cb8c27b01ef87).
 
-_Exemplo:_
-
-````
-<details>
-  <summary>Resolução</summary>
-
-  ```java
-  System.out.print("Alô mundo");
-  ```
-</details>
-````
-
-_Para mostrar:_
-
-<details>
-  <summary>Resolução</summary>
-
-  ```java
-  System.out.print("Alô mundo");
-  ```
-</details>
 
 ## Hacktoberfest [2021](https://hacktoberfest.digitalocean.com/?mkt_tok=MTEzLURUTi0yNjYAAAF_aezFqxkovZOmqb7afzTaFagFsG_4qSP84UeArzlcZBsmpwW6yiDQfa0-3tJGdR9r0qDVs0dbsWV9ZM9beINRTjAdlKL39k2G3UuwkFPY)
 
