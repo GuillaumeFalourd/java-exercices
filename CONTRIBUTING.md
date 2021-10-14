@@ -20,17 +20,25 @@
 
 _Exemplo:_
 
-```
+````
 <details>
   <summary>Resolução</summary>
 
   ```java
   System.out.print("Alô mundo");
   ```
-
 </details>
+````
 
-```
+_Para mostrar:_
+
+<details>
+  <summary>Resolução</summary>
+
+  ```java
+  System.out.print("Alô mundo");
+  ```
+</details>
 
 ## Hacktoberfest [2021](https://hacktoberfest.digitalocean.com/?mkt_tok=MTEzLURUTi0yNjYAAAF_aezFqxkovZOmqb7afzTaFagFsG_4qSP84UeArzlcZBsmpwW6yiDQfa0-3tJGdR9r0qDVs0dbsWV9ZM9beINRTjAdlKL39k2G3UuwkFPY)
 
