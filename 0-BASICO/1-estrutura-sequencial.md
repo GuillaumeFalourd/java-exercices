@@ -6,7 +6,7 @@
 System.out.print("Alô mundo");
 ```
 
-- Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário.
+- Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário (variáveis declaradas).
 
 ```java
 public static void main(String[] args) {
@@ -26,7 +26,7 @@ public static void main(String[] args) {
 }
 ```
 
-- Faça um programa que exibe a soma e a substração de 2 números.
+- Faça um programa que exibe a soma e a substração de 2 números (variáveis declaradas).
 
 ```java
 public static void main(String[] args) {
