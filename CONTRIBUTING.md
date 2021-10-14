@@ -2,7 +2,7 @@
 
 ## Adicionar novos conteúdos no projeto
 
-**Sempre** baseie seu trabalho no branch `master` ou `main` do projeto, nomeando sua nova _branch_ de acordo com o seguinte guia:
+**Sempre** baseie seu trabalho no branch `main` do projeto, nomeando sua nova _branch_ de acordo com o seguinte guia:
 
 ![branchs](https://github.com/GuillaumeFalourd/useful-actions/blob/main/git-branchs.png)
 
