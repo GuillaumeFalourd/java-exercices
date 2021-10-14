@@ -4,7 +4,7 @@
 
 **Sempre** baseie seu trabalho no branch `master` ou `main` do projeto, nomeando sua nova _branch_ de acordo com o seguinte guia:
 
-![branchs](/docs/img/git-branchs.png)
+![branchs](https://github.com/GuillaumeFalourd/useful-actions/blob/main/git-branchs.png)
 
 **Exemplos: `feature/name` or `fix/name`**
 
