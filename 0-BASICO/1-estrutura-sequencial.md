@@ -6,6 +6,49 @@
 System.out.print("Alô mundo");
 ```
 
+- Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário.
+
+```java
+public static void main(String[] args) {
+
+    int idade_do_usuario = 20;
+    String nomeDoUsuario = "João";
+
+    // Printando as variáveis declaradas
+    System.out.print("Olá, meu nome é ");
+    System.out.print(nomeDoUsuario);
+    System.out.print(" e minha idade é ");
+    System.out.print(idade_do_usuario);
+    System.out.println(" anos");
+
+    // Printando de forma concatenada as variáveis declaradas
+    System.out.print("Olá, meu nome é " + nomeDoUsuario + " a minha idade é " + idade_do_usuario);
+}
+```
+
+- Faça um programa que exibe a soma e a substração de 2 números.
+
+```java
+public static void main(String[] args) {
+    // Armazenar os valores em memória
+    int numero1 = 20;
+    int numero2 = 20;
+
+    // Criando a operação de soma
+    int resultadoDaSoma = numero1 + numero2;
+
+    // Criando a operação de subtração
+    int resultadoDaSubtracao = numero1 - numero2;
+
+    // Exibindo a operação de soma para o usuário
+    System.out.println("O resultado da soma é: "+resultadoDaSoma);
+
+    // Exibindo a operação de subtração para o usuário
+    System.out.println("O resultado da subtração é: "+resultadoDaSubtracao);
+
+}
+```
+
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
 ```java
