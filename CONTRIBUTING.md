@@ -16,7 +16,7 @@
 
 - Descreve as mudanças realizadas na _Pull Request_.
 
-- Quando tiver varios exercícios na mesma página, por favor, use o spoiler no markdown para mostrar a resolução:
+- Quando tiver varios exercícios na mesma página, por favor, use o **spoiler** no arquivo Markdown (.md) para mostrar a resolução:
 
 _Exemplo:_
 
