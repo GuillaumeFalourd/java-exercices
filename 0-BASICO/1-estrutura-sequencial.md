@@ -12,6 +12,9 @@ System.out.print("Alô mundo");
 
 - Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário (variáveis declaradas).
 
+<details>
+  <summary>Resolução</summary>
+
 ```java
 public static void main(String[] args) {
     int idade_do_usuario = 20;
@@ -28,8 +31,12 @@ public static void main(String[] args) {
     System.out.print("Olá, meu nome é " + nomeDoUsuario + " a minha idade é " + idade_do_usuario);
 }
 ```
+</details>
 
 - Faça um programa que exibe a soma e a substração de 2 números (variáveis declaradas).
+
+<details>
+  <summary>Resolução</summary>
 
 ```java
 public static void main(String[] args) {
@@ -51,6 +58,7 @@ public static void main(String[] args) {
 
 }
 ```
+</details>
 
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
@@ -66,6 +74,9 @@ TODO
 
 - Faça um Programa que recebe o quanto você ganha por hora e o número de
 horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+
+<details>
+  <summary>Resolução</summary>
 
 ```java
 public static void main(String[] args) {
@@ -83,6 +94,7 @@ public static void main(String[] args) {
     System.out.println("Portanto, seu salário este mês, será: R$"+salarioBruto);
 }
 ```
+</details>
 
 - Faça um programa que peça a temperatura em graus Fahrenheit, transforme e
 mostre a temperatura em graus Celsius.
