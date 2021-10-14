@@ -24,9 +24,9 @@ _Exemplo:_
 <details>
   <summary>Resolução</summary>
 
-```java
-System.out.print("Alô mundo");
-```
+  ```java
+  System.out.print("Alô mundo");
+  ```
 
 </details>
 
