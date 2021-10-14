@@ -10,7 +10,6 @@ System.out.print("Alô mundo");
 
 ```java
 public static void main(String[] args) {
-
     int idade_do_usuario = 20;
     String nomeDoUsuario = "João";
 
@@ -66,7 +65,6 @@ horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido 
 
 ```java
 public static void main(String[] args) {
-
     // Armazenou os dois dados necessários para o processamento
     float qtdDeHorasTrabalhadas = 10;
     float salarioPorHora = 20;
