@@ -3,8 +3,7 @@
 - Faça um programa que mostre a mensagem "Alô mundo" na tela.
 
 <details>
-  <summary>**Resolução**</summary>
-
+  <summary>Resolução</summary>
 ```java
 System.out.print("Alô mundo");
 ```
