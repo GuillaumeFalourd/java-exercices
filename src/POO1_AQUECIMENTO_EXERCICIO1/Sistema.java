@@ -21,6 +21,7 @@ public class Sistema {
 
     public static void excluirProduto(){
         String produtoExcluido = capturarDados("Digite o nome do produto que deseja excluir").nextLine();
+        ServiceProduto.excluirProduto(produtoExcluido);
     }
 
     public static void menu(){
