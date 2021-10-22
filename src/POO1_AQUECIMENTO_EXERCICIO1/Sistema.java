@@ -16,6 +16,6 @@ public class Sistema {
 
     public static void adicionarProdutos(){
         int numeroProdutos = capturarDados("Digite quantos produtos deseja adicionar").nextInt();
-
+        ServiceProduto.adicionarProdutos(numeroProdutos);
     }
 }
