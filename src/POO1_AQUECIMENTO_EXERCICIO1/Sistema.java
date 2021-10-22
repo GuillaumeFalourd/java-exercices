@@ -25,6 +25,24 @@ public class Sistema {
         System.out.println("Para exibir todos os produtos cadastrados digite 2");
     }
 
+    public static void executar(){
+        boolean loop = true;
+        while (loop) {
+            menu();
+            int escolha = capturarDados("Digite sua escolha").nextInt();
+            if (escolha == 1) {
+                adicionarProdutos();
+            } else if (escolha == 2) {
+                ServiceProduto.exibirProdutosCadastrados();
+            }
+            else if (escolha == 3){
+                loop = false;
+            }
+            else {
+                System.out.println("Opção inválida");
+            }
+        }
+    }
 
 
 }
