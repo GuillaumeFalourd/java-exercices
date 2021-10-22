@@ -42,6 +42,9 @@ public class Sistema {
                 ServiceProduto.exibirProdutosCadastrados();
             }
             else if (escolha == 3){
+                excluirProduto();
+            }
+            else if (escolha == 4){
                 loop = false;
             }
             else {
