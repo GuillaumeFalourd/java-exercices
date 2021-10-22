@@ -19,5 +19,12 @@ public class Sistema {
         ServiceProduto.adicionarProdutos(numeroProdutos);
     }
 
+    public static void menu(){
+        System.out.println("Bem vindo!");
+        System.out.println("Para cadastrar novos produtos digite 1");
+        System.out.println("Para exibir todos os produtos cadastrados digite 2");
+    }
+
+
 
 }
