@@ -13,4 +13,9 @@ public class Sistema {
         Double preco = capturarDados("Digite o preço do produto: ").nextDouble();
         ServiceProduto.instanciarProduto(nome,preco);
     }
+
+    public static void adicionarProdutos(){
+        int numeroProdutos = capturarDados("Digite quantos produtos deseja adicionar").nextInt();
+
+    }
 }
