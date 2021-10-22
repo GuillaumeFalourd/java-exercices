@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ServiceProduto {
-    private static List <Produto> listaDeProdutos = new ArrayList<>();
+    public static List <Produto> listaDeProdutos = new ArrayList<>();
 
     public static void instanciarProduto(String nome, double preco){
         Produto produto = new Produto(nome, preco);
@@ -16,6 +16,10 @@ public class ServiceProduto {
             Sistema.instanciarProduto();
             quantidade --;
         }
+    }
+
+    public static void exibirProdutosCadastrados(){
+        listaDeProdutos.forEach(System.out::println);
     }
 
 
