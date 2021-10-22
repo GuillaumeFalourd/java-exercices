@@ -11,7 +11,12 @@ public class ServiceProduto {
         listaDeProdutos.add(produto);
     }
 
-
+    public static void adicionarProdutos(int quantidade){
+        while (quantidade != 0){
+            Sistema.instanciarProduto();
+            quantidade --;
+        }
+    }
 
 
 }
