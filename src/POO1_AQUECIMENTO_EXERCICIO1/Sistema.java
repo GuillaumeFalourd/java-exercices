@@ -19,6 +19,10 @@ public class Sistema {
         ServiceProduto.adicionarProdutos(numeroProdutos);
     }
 
+    public static void excluirProduto(){
+        String produtoExcluido = capturarDados("Digite o nome do produto que deseja excluir").nextLine();
+    }
+
     public static void menu(){
         System.out.println("1 - Cadastrar produtos");
         System.out.println("2 - Exibir produtos cadastrados");
