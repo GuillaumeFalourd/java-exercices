@@ -4,7 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ServiceProduto {
-    List <Produto> listaDeProdutos = new ArrayList<>();
+    private static List <Produto> listaDeProdutos = new ArrayList<>();
+
+    public static void instanciarProduto(String nome, double preco){
+        Produto produto = new Produto(nome, preco);
+        listaDeProdutos.add(produto);
+    }
 
 
 }
