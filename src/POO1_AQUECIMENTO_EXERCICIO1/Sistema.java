@@ -20,9 +20,9 @@ public class Sistema {
     }
 
     public static void menu(){
-        System.out.println("Bem vindo!");
-        System.out.println("Para cadastrar novos produtos digite 1");
-        System.out.println("Para exibir todos os produtos cadastrados digite 2");
+        System.out.println("1 - Cadastrar produtos");
+        System.out.println("2 - Exibir produtos cadastrados");
+        System.out.println("3 - Sair");
     }
 
     public static void executar(){
