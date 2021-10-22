@@ -7,4 +7,10 @@ public class Sistema {
         System.out.println(mensagem);
         return new Scanner(System.in);
     }
+
+    public static Produto instanciarProduto(){
+        String nome = capturarDados("Digite o nome do produto: ").nextLine();
+        Double preco = capturarDados("Digite o preço do produto: ").nextDouble();
+
+    }
 }
