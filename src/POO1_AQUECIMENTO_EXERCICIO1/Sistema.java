@@ -11,6 +11,6 @@ public class Sistema {
     public static void instanciarProduto(){
         String nome = capturarDados("Digite o nome do produto: ").nextLine();
         Double preco = capturarDados("Digite o preço do produto: ").nextDouble();
-
+        ServiceProduto.instanciarProduto(nome,preco);
     }
 }
