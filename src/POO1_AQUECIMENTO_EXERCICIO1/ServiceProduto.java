@@ -18,6 +18,22 @@ public class ServiceProduto {
         }
     }
 
+    public static void excluirProduto(String nome){
+        Produto excluido = null;
+        for (Produto referencia : listaDeProdutos){
+            if (referencia.getNome().equalsIgnoreCase(nome)){
+                excluido = referencia;
+            }
+        }
+        if (excluido == null){
+            System.out.println("Não existe um produto com este nome");
+        }
+        else {
+            listaDeProdutos.remove(excluido);
+            System.out.println("Produto excluído");
+        }
+    }
+
     public static void exibirProdutosCadastrados(){
         listaDeProdutos.forEach(System.out::println);
     }
