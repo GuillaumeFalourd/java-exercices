@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ServicoPrato {
-    public class ServicoPrato {
+
         private static List<Prato> pratos = new ArrayList<>();
 
         public ServicoPrato(List<Prato> pratos) {

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Prato {
 
-    public class Prato {
+
         private String nome;
         private List<Ingrediente> ingredientes = new ArrayList<>();
 
