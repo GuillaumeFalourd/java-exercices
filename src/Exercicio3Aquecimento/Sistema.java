@@ -30,5 +30,11 @@ public class Sistema {
 
         return ServicoPrato.cadastrarPrato(nome, ingredientes);
     }
+//metodo para receber o nome do prato a ser excluído
+
+    public static void excluirPrato() {
+        String nomePratoExcluido = entradaDados("Por favor, digite o nome do prato a ser excluído:").nextLine();
+        ServicoPrato.excluirPrato(nomePratoExcluido);
+    }
 
 }
