@@ -15,15 +15,16 @@ public class Sistema {
         System.out.println("-------------------------------------------");
         System.out.println("Digite a opção desejada:");
     }
-    public static Candidato cadastrarCandidato(){
+    public static Candidato cadastrarCandidato() throws Exception{
         String nome = receberDados("Digite o nome do Candidato: ").nextLine();
         int numeroMatricula = receberDados("Digite o número da matrícula: ").nextInt();
+        ServicoCandidato.verificarMatriculaRepetida(numeroMatricula);
         double nota = receberDados("Qual a nota do candidato: ").nextDouble();
 
         Candidato novoCandidato = ServicoCandidato.cadastrarCandidato(nome, numeroMatricula,nota);
         return novoCandidato;
     }
-    public static void executar (){
+    public static void executar () throws Exception{
         boolean continuarExecutar = true;
 
         System.out.println("Bem vindo ao Sistema de gerenciamento de Candidatos");

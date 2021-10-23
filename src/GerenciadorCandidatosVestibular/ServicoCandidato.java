@@ -17,5 +17,12 @@ public class ServicoCandidato {
             System.out.println(candidatoReferencia);
         }
     }
+    public static void verificarMatriculaRepetida (int matricula) throws Exception{
+        for (Candidato candidatoReferencia : candidatos){
+            if (candidatoReferencia.getNumeroMatricula() == matricula){
+                throw new Exception("Matrícula já cadastrada!");
+            }
+        }
+    }
 
 }
