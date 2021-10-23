@@ -50,4 +50,42 @@ public class Sistema {
 
     }
 
+    //método para executar o programa completo:
+
+    public static boolean executar() {
+        boolean operarMenu = true;
+
+        while (operarMenu) {
+            menu();
+            System.out.println("---------------------------------------------------");
+            int escolhaUsuario = entradaDados("Escolha a opção desejada: ").nextInt();
+            if (escolhaUsuario == 1) {
+                Prato prato = new Prato();
+                prato = cadastrarPrato();
+                System.out.println("\n");
+                System.out.println("Prato cadastrado com sucesso!");
+                System.out.println("---------------------------------------");
+                System.out.println("\n");
+            } else if (escolhaUsuario == 2) {
+                System.out.println("---------------------------------------");
+                System.out.println("Pratos Cadastrados: ");
+                ServicoPrato.exibirPratos();
+                System.out.println("---------------------------------------");
+            } else if (escolhaUsuario == 3) {
+                String pratoExcluido = entradaDados("Por favor, digite o nome do prato a ser excluído: ").nextLine();
+                ServicoPrato.excluirPrato(pratoExcluido);
+                System.out.println("Prato excluído com sucesso!");
+                System.out.println("---------------------------------------");
+            } else if (escolhaUsuario == 4) {
+                System.out.println("Obrigade e até a próxima!! =)");
+                operarMenu = false;
+            } else {
+                System.out.println("Por favor, digite uma opção válida XD");
+            }
+
+        }
+        return operarMenu;
+
+    }
+
 }
