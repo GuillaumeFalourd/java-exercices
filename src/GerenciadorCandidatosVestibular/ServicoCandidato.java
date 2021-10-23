@@ -12,7 +12,7 @@ public class ServicoCandidato {
         return novoCandidato;
     }
     public static void exibirCandidatosCadastrados(){
-        System.out.println("Quantidade de candadidatos cadastrados: " + candidatos.size());
+        System.out.println("Quantidade de candidatos cadastrados: " + candidatos.size());
         for (Candidato candidatoReferencia: candidatos){
             System.out.println(candidatoReferencia);
         }
@@ -23,6 +23,17 @@ public class ServicoCandidato {
                 throw new Exception("Matrícula já cadastrada!");
             }
         }
+    }
+    public static Candidato verificarMatriculaExistente (int matricula) throws Exception{
+        for (Candidato candidatoReferencia : candidatos){
+            if (candidatoReferencia.getNumeroMatricula() == matricula){
+                return candidatoReferencia;
+            }
+        }
+        throw new Exception("Candidato não encontrado");
+    }
+    public static void excluirCandidato(Candidato candidato){
+        candidatos.remove(candidato);
     }
 
 }

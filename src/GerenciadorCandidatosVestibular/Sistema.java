@@ -11,7 +11,8 @@ public class Sistema {
         System.out.println("\n------------O que deseja fazer?------------");
         System.out.println("[1] - Cadastrar novo candidato;");
         System.out.println("[2] - Exibir candidatos cadastrados;");
-        System.out.println("[3] - Sair");
+        System.out.println("[3] - Excluir candidato cadastrado;");
+        System.out.println("[4] - Sair");
         System.out.println("-------------------------------------------");
         System.out.println("Digite a opção desejada:");
     }
@@ -24,11 +25,18 @@ public class Sistema {
         Candidato novoCandidato = ServicoCandidato.cadastrarCandidato(nome, numeroMatricula,nota);
         return novoCandidato;
     }
-    public static void executar () throws Exception{
-        boolean continuarExecutar = true;
+
+    public static void excluirCandidato() throws Exception{
+        int matricula = receberDados("Digite a matícula do candidato que deseja excluir:").nextInt();
+        Candidato candidatoASerExcluido = ServicoCandidato.verificarMatriculaExistente(matricula);
+        ServicoCandidato.excluirCandidato(candidatoASerExcluido);
+        System.out.println("Candidato Excluído");
+    }
+    public static boolean executar () throws Exception{
+        boolean continuarMenu = true;
 
         System.out.println("Bem vindo ao Sistema de gerenciamento de Candidatos");
-        while (continuarExecutar){
+        while (continuarMenu){
             menuOpcoes();
             int opcao = receberDados("").nextInt();
 
@@ -36,13 +44,17 @@ public class Sistema {
                 Candidato novoCandidato = cadastrarCandidato();
                 System.out.println(novoCandidato);
             }
-            if (opcao ==2 ){
+            if (opcao == 2 ){
                 ServicoCandidato.exibirCandidatosCadastrados();
             }
             if (opcao == 3){
-                continuarExecutar = false;
+                excluirCandidato();
+            }
+            if (opcao == 4){
+                continuarMenu = false;
                 System.out.println("Até mais!");
             }
         }
+        return continuarMenu;
     }
 }
