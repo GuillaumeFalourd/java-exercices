@@ -28,4 +28,8 @@ public class CartaoDeCredito {
             System.out.println("Você não tem limite");
         }
     }
+    public void imprimeFatura() {
+        System.out.println("Seu novo saldo após a compra é : " + saldo);
+        System.out.println("Seu limite após a compra  é : " + limite);
+    }
 }
