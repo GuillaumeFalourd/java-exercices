@@ -12,7 +12,7 @@ public class Sistema {
         System.out.println("[1] - Cadastrar novo candidato;");
         System.out.println("[2] - Exibir candidatos cadastrados;");
         System.out.println("[3] - Sair");
-        System.out.println("---------------------------------------------\n");
+        System.out.println("-------------------------------------------");
         System.out.println("Digite a opção desejada:");
     }
     public static Candidato cadastrarCandidato(){
@@ -34,6 +34,9 @@ public class Sistema {
             if (opcao == 1){
                 Candidato novoCandidato = cadastrarCandidato();
                 System.out.println(novoCandidato);
+            }
+            if (opcao ==2 ){
+                ServicoCandidato.exibirCandidatosCadastrados();
             }
             if (opcao == 3){
                 continuarExecutar = false;

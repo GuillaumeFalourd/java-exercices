@@ -11,5 +11,11 @@ public class ServicoCandidato {
         candidatos.add(novoCandidato);
         return novoCandidato;
     }
+    public static void exibirCandidatosCadastrados(){
+        System.out.println("Quantidade de candadidatos cadastrados: " + candidatos.size());
+        for (Candidato candidatoReferencia: candidatos){
+            System.out.println(candidatoReferencia);
+        }
+    }
 
 }
