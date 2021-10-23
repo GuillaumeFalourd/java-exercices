@@ -1,4 +1,5 @@
 package br.com.zup.CartaoCredito;
 
-public class CartaoDeCredito {
+public class Sistema {
+
 }
