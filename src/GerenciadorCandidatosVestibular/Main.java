@@ -8,6 +8,6 @@ cada candidato tem número de matrícula e uma nota.
  */
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println(Sistema.cadastrarCandidato());
     }
 }

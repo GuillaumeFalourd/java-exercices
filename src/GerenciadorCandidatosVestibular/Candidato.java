@@ -2,13 +2,13 @@ package GerenciadorCandidatosVestibular;
 
 public class Candidato {
     private int numeroMatricula;
-    private double notaCandidato;
     private String nomeCandidato;
+    private double notaCandidato;
 
     public Candidato() {
     }
 
-    public Candidato(int numeroMatricula, double notaCandidato, String nomeCandidato) {
+    public Candidato( String nomeCandidato, int numeroMatricula, double notaCandidato) {
         this.numeroMatricula = numeroMatricula;
         this.notaCandidato = notaCandidato;
         this.nomeCandidato = nomeCandidato;
@@ -41,11 +41,11 @@ public class Candidato {
     @Override
     public String toString() {
         StringBuilder retornaDados = new StringBuilder();
-        retornaDados.append("--------------------------");
-        retornaDados.append("Nome:  "+ nomeCandidato);
-        retornaDados.append("Matrícula: "+ numeroMatricula);
-        retornaDados.append("Nota: "+ notaCandidato);
-        retornaDados.append("--------------------------");
+        retornaDados.append("\n--------------------------");
+        retornaDados.append("\nNome:  "+ nomeCandidato);
+        retornaDados.append("\nMatrícula: "+ numeroMatricula);
+        retornaDados.append("\nNota: "+ notaCandidato);
+        retornaDados.append("\n--------------------------");
         return retornaDados.toString();
     }
 }
