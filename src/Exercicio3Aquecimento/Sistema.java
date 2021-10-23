@@ -6,6 +6,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Sistema {
+
     // método para receber os dados do usuário
 
     private static Scanner entradaDados(String mensagem) {
