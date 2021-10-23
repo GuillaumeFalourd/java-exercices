@@ -37,4 +37,17 @@ public class Sistema {
         ServicoPrato.excluirPrato(nomePratoExcluido);
     }
 
+//método para exibir as opções do menu
+
+    public static void menu() {
+        System.out.println("---------------------------------------------------");
+        System.out.println("Bem vinde ao sistema de gerenciamento da Bom Prato!");
+        System.out.println("---------------------------------------------------");
+        System.out.println("Para cadastrar um prato, digite: 1");
+        System.out.println("Para listar os pratos cadastrados, digite: 2");
+        System.out.println("Para excluir um prato, digite: 3");
+        System.out.println("Para sair do sistema, digite: 4");
+
+    }
+
 }
