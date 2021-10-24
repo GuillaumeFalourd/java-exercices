@@ -8,9 +8,7 @@ TODO
 
 - Faça um programa que mostra na tela os números de 100 a 1.
 
-```java
-TODO
-```
+[Resolcao do exericio](https://github.com/larinovaes/java-exercices/tree/Feature/questao2/src/exercicio2lista1estruturaderepeticao)
 
 - Faça um programa para ler 5 números e mostrar o resultado da soma desses números.
 
