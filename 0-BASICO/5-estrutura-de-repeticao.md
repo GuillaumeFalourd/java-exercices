@@ -2,9 +2,7 @@
 
 - Faça um programa que mostra na tela os números de 1 a 100.
 
-```java
-TODO
-```
+[Resolucao do exercicio](https://github.com/larinovaes/java-exercices/tree/estruturaDeRepeticao/src)
 
 - Faça um programa que mostra na tela os números de 100 a 1.
 
