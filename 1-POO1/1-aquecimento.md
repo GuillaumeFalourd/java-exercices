@@ -14,6 +14,4 @@ TODO
 
 3.Crie um programa para gerenciar o cardápio de um restaurante. Cada prato tem um nome e pode conter diversos ingredientes. No final do programa, o usuário deve decidir se irá adicionar mais de um prato, exibir todos os pratos cadastrados ou excluir um prato pelo nome.
 
-```java
-TODO
-```
+[Resolucao Exercicio](https://github.com/M4r1-D3v/java-exercices/tree/ExercicioTresAquecimento/src/Exercicio3Aquecimento)
