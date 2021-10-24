@@ -48,4 +48,10 @@ public class ServicoCandidato {
         candidatos.remove(candidatoExcluido);
     }
 
+    @Override
+    public String toString() {
+        StringBuilder retorno = new StringBuilder();
+        retorno.append("Candidatos: " + candidatos);
+        return retorno.toString();
+    }
 }
