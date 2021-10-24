@@ -41,4 +41,32 @@ public class Sistema {
         System.out.println("Para sair do sistema, por favor digite [4]");
     }
 
+    //método para executar o programa completo
+
+    public static boolean executar(){
+        boolean operarMenu = true;
+        while (operarMenu){
+            menu();
+            int escolhaUsuario = entradaDados("Por favor digite a opção desejada: ").nextInt();
+            if (escolhaUsuario == 1){
+                Candidato candidato = new Candidato();
+                candidato = adicionarCandidato();
+            }else if (escolhaUsuario == 2){
+                System.out.println("------------------------");
+                System.out.println("Candidatos cadastrados: ");
+                System.out.println("------------------------");
+                ServicoCandidato.listarCandidatos();
+            }else if (escolhaUsuario == 3){
+                String numeroMatricula = entradaDados("Por favor digite o número de matrícula do candidato:").nextLine();
+                ServicoCandidato.excluirCandidato(numeroMatricula);
+                System.out.println("Candidato excluído com sucesso!");
+            }else  if (escolhaUsuario == 4){
+                System.out.println("Obrigade e até a próxima!");
+                operarMenu = false;
+            }else{
+                System.out.println("Ops, opção inválida! Tente outra vez =)");
+            }
+        }
+        return operarMenu;
+    }
 }
