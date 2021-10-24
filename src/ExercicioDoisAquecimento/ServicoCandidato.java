@@ -36,4 +36,16 @@ public class ServicoCandidato {
         }
     }
 
+    // método para excluir candidatos a partir do número de matrícula fornecido
+
+    public static void excluirCandidato(String numeroMatricula) {
+        Candidato candidatoExcluido = null;
+        for (Candidato candidatoReferencia : candidatos) {
+            if (candidatoReferencia.getNumeroMatricula().equals(numeroMatricula)) {
+                candidatoExcluido = candidatoReferencia;
+            }
+        }
+        candidatos.remove(candidatoExcluido);
+    }
+
 }
