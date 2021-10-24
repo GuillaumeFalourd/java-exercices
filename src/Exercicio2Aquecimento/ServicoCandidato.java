@@ -26,6 +26,14 @@ public class ServicoCandidato {
         return candidato;
     }
 
+    // método para listar os candidados
+
+    public static void listarCandidatos() {
+        for (Candidato candidatoReferencia : candidatos) {
+            System.out.println("\n" + candidatoReferencia);
+        }
+    }
+
     @Override
     public String toString() {
         StringBuilder retorno = new StringBuilder();
