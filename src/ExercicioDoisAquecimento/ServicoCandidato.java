@@ -20,4 +20,12 @@ public class ServicoCandidato {
         this.candidatos = candidatos;
     }
 
+    //método para adicionar um candidato
+
+    public static Candidato adicionarCandidato(String nome, String numeroMatricula, double nota) {
+        Candidato candidato = new Candidato(nome, numeroMatricula, nota);
+        candidatos.add(candidato);
+        return candidato;
+    }
+
 }
