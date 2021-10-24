@@ -28,4 +28,17 @@ public class Sistema {
         ServicoCandidato.excluirCandidato(numeroMatricula);
     }
 
+    //método para exibir as opções do menu
+    public static void menu() {
+        System.out.println("\n ");
+        System.out.println("-------------------------------------------------------------------------------");
+        System.out.println("Olá, seja bem vinde ao sistema de gerenciamento de candidatos < Pagou, pa$$ou >");
+        System.out.println("-------------------------------------------------------------------------------");
+        System.out.println("\n ");
+        System.out.println("Para adicionar um candidato, por favor digite [1]");
+        System.out.println("Para exibir os candidatos cadastrados, por favor digite [2]");
+        System.out.println("Para excluir um candidato, por favor digite [3]");
+        System.out.println("Para sair do sistema, por favor digite [4]");
+    }
+
 }
