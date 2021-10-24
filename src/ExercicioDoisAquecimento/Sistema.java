@@ -1,5 +1,8 @@
 package ExercicioDoisAquecimento;
 
+import Exercicio2Aquecimento.Candidato;
+import Exercicio2Aquecimento.ServicoCandidato;
+
 import java.util.Scanner;
 
 public class Sistema {
@@ -11,4 +14,14 @@ public class Sistema {
         return new Scanner(System.in);
 
     }
+    //método para receber a entrada de dados no cadastro de candidatos:
+    public static Candidato adicionarCandidato() {
+        String nome = entradaDados("Por favor digite o nome do candidato: ").nextLine();
+        String numeroMatricula = entradaDados("Por favor, digite o número de matrícula do candidato: ").nextLine();
+        double nota = entradaDados("Por favor, digite a nota do candidato: ").nextDouble();
+        return ServicoCandidato.adicionarCandidato(nome, numeroMatricula, nota);
+    }
+
+
+
 }
