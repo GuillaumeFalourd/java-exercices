@@ -1,2 +1,5 @@
-package ExercicioDoisAquecimento;public class Main {
+package ExercicioDoisAquecimento;
+
+public class Main {
+
 }
