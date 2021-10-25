@@ -44,8 +44,25 @@ public class ContaBancaria {
 
     // Método Saque
     public double saqueConta(double valorSaque){
-        saldo = saldo-valorSaque;
+        saldo = saldo - valorSaque;
         return  saldo;
+    }
+
+    //Método Depósito
+    public double depositoConta(double valorDeposito){
+        saldo = saldo + valorDeposito;
+        return saldo;
+    }
+
+    //Método Extrato
+    public void extrato(){
+        System.out.println("======================================");
+        System.out.println("\t Extrato Conta "+numeroConta);
+        System.out.println("======================================");
+        System.out.println("Correntista: \t"+nomeCorrentista);
+        System.out.println("Número de Conta: \t"+numeroConta );
+        System.out.println("Saldo Atua: \t"+saldo);
+        System.out.println("======================================");
     }
 
 

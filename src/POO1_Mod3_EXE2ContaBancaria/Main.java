@@ -9,9 +9,22 @@ public class Main {
         System.out.println(newConta.getNomeCorrentista());
         System.out.println(newConta.getNumeroConta());
         System.out.println(newConta.getSaldo());
+
+        //Testar Método Saque
         System.out.println("Digite valor do Saque: ");
         double valorModificar = leitor.nextDouble();
         newConta.saqueConta(valorModificar);
         System.out.println("Saldo Atual: "+newConta.getSaldo());
+
+        //Testar Método Deposito
+        System.out.println("Digite valor do Deposito: ");
+        valorModificar = leitor.nextDouble();
+        newConta.depositoConta(valorModificar);
+        System.out.println("Saldo Atual: "+newConta.getSaldo());
+
+        //Testar Método Extrato
+        newConta.extrato();
+
+
     }
 }
