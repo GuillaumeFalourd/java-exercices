@@ -32,4 +32,13 @@ public class CartaoDeCredito {
             System.out.println("Limite insuficiente!");
         }
     }
+
+    @Override
+    public String toString() {
+        StringBuilder extratoFatura = new StringBuilder();
+        extratoFatura.append("\t");
+        extratoFatura.append("Limite atual após compra  R$: " + limite);
+        extratoFatura.append("Valor da sua fatura R$: " + saldoFatura);
+        return extratoFatura.toString();
+    }
 }
