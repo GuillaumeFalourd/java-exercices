@@ -23,4 +23,13 @@ public class CartaoDeCredito {
     public void diminuirLimite (double menosLimite){
         limite = limite - menosLimite;
     }
+
+    public void realizarCompra( double novaCompra){
+        if (novaCompra <= limite) {
+            limite = limite - novaCompra;
+            saldoFatura = saldoFatura + novaCompra;
+        } else {
+            System.out.println("Limite insuficiente!");
+        }
+    }
 }
