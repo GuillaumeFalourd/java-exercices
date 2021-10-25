@@ -10,6 +10,8 @@
 
 ## Guias
 
+- Abra uma nova issue em **português** para informar qual exercício você gostaria de resolver (_confere primeiro que ninguém escolheu esse exercício antes_).
+
 - Os conteúdos escritos devem ser adicionados em **português**.
 
 - Abra uma _Pull Request_ por mudança (exemplo: sugestão de resolução _(TODO)_, adição de novo exercício, ou melhoria de um exercício).
