@@ -42,6 +42,11 @@ public class ContaBancaria {
         this.nomeCorrentista = nomeCorrentista;
     }
 
+    // Método Saque
+    public double saqueConta(double valorSaque){
+        saldo = saldo-valorSaque;
+        return  saldo;
+    }
 
 
 }
