@@ -2,9 +2,14 @@
 
 - Faça um programa que mostra na tela os números de 1 a 100.
 
-```java
-TODO
-```
+
+    public class EstruturaDeRepeticao {
+
+      public static void main(String[] args) {
+
+        
+      }
+    }
 
 - Faça um programa que mostra na tela os números de 100 a 1.
 
