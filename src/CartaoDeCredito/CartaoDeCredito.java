@@ -44,8 +44,8 @@ public class CartaoDeCredito {
     public String toString() {
         StringBuilder extratoFatura = new StringBuilder();
         extratoFatura.append("\t");
-        extratoFatura.append("Limite atual após compra  R$: " + limite);
-        extratoFatura.append("Valor da sua fatura R$: " + saldoFatura);
+        extratoFatura.append("\nLimite atual R$: " + limite);
+        extratoFatura.append("\nValor da sua fatura R$: " + saldoFatura);
         return extratoFatura.toString();
     }
 }
