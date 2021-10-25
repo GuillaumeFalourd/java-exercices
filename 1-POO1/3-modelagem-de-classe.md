@@ -26,3 +26,5 @@ TODO
 valor da fatura.
 
 [Resolucao exercicio](https://github.com/lurregiabarreto/java-exercices/tree/feature/CartaoCredito/src/br/com/zup/CartaoCredito)
+
+[Resolução do Exercicio](https://github.com/Raline1/java-exercices/tree/feature/modelarCartao/src/CartaoDeCredito)
