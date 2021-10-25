@@ -18,9 +18,7 @@ TODO
 - Sai : para remover uma pessoa do elevador (só deve remover se houver alguém dentro dele);
 - Sobe : para subir um andar (não deve subir se já estiver no último andar); - Desce : para descer um andar (não deve descer se já estiver no térreo);
 
-```java
-TODO
-```
+[Resolução Exercicio](https://github.com/dorayenCarrasquel/java-exercices/tree/feature/Modelagem_ContaBancaria/src/POO1_Mod3_EXE2ContaBancaria)
 
 4.Crie uma classe que represente um cartão de crédito, que deve ter como atributos o seu limite, o saldo da fatura e nome do cliente. Crie também os métodos aumentaLimite(), diminuiLimite(), realizaCompra() que não deve permitir uma compra caso o limite tenha sido atingido e o imprimeFatura() que imprime na tela o
 valor da fatura.
