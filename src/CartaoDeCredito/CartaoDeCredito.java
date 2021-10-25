@@ -5,4 +5,13 @@ public class CartaoDeCredito {
     double limite;
     double saldoFatura;
 
+    public CartaoDeCredito() {
+
+    }
+
+    public CartaoDeCredito(String nomeCliente, double limite, double saldoFatura) {
+        this.nomeCliente = nomeCliente;
+        this.limite = limite;
+        this.saldoFatura = saldoFatura;
+    }
 }
