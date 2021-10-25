@@ -14,4 +14,9 @@ public class CartaoDeCredito {
         this.limite = limite;
         this.saldoFatura = saldoFatura;
     }
+
+    public void aumentarLimite (double maisLimite){
+        limite = limite + maisLimite;
+
+    }
 }
