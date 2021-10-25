@@ -1,30 +1,36 @@
 package CartaoDeCredito;
 
+//classe cartao e seus atributos
 public class CartaoDeCredito {
     String nomeCliente;
     double limite;
     double saldoFatura;
 
+    // método construtor sem parâmetro
     public CartaoDeCredito() {
 
     }
 
+    // método construtor com parâmetro
     public CartaoDeCredito(String nomeCliente, double limite, double saldoFatura) {
         this.nomeCliente = nomeCliente;
         this.limite = limite;
         this.saldoFatura = saldoFatura;
     }
 
-    public void aumentarLimite (double maisLimite){
+    //método aumentar limite
+    public void aumentarLimite(double maisLimite) {
         limite = limite + maisLimite;
 
     }
 
-    public void diminuirLimite (double menosLimite){
+    //método diminuir limite
+    public void diminuirLimite(double menosLimite) {
         limite = limite - menosLimite;
     }
 
-    public void realizarCompra( double novaCompra){
+    //Ao realizar uma compra, diminui o limite e a altera o saldo da fatura
+    public void realizarCompra(double novaCompra) {
         if (novaCompra <= limite) {
             limite = limite - novaCompra;
             saldoFatura = saldoFatura + novaCompra;
@@ -33,6 +39,7 @@ public class CartaoDeCredito {
         }
     }
 
+    //Exibe a fatura
     @Override
     public String toString() {
         StringBuilder extratoFatura = new StringBuilder();
