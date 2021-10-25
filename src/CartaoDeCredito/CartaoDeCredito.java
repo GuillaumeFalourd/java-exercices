@@ -19,4 +19,8 @@ public class CartaoDeCredito {
         limite = limite + maisLimite;
 
     }
+
+    public void diminuirLimite (double menosLimite){
+        limite = limite - menosLimite;
+    }
 }
