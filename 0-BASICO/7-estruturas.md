@@ -6,11 +6,15 @@
 TODO
 ```
 
+* * *
+
 - Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual número ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
 
@@ -65,14 +69,18 @@ public class Main {
   }
 }
 ```
-  
+                               
 </details>
 
+* * *  
+  
 - Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que leia 5 números e informe o maior número.
 
@@ -80,11 +88,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
 
@@ -92,11 +104,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Faça um Programa que leia uma lista de 5 números inteiros e mostre-os.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um Programa que leia uma lista de 10 números e mostre-os na ordem inversa.
 
@@ -104,11 +120,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um Programa que leia 20 números e armazene-os numa lista. Armazene os números pares na lista PAR e os números ÍMPARES na lista ímpar. Imprima as três listas.
 
@@ -116,11 +136,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Faça um Programa que leia uma lista de 5 números inteiros, mostre a soma, a multiplicação e os números.
 
 ```java
 TODO
 ```
+
+* * *
 
 - João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 
@@ -128,11 +152,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Escreva um programa que escreva na tela, de 1 até 100, de 1 em 1, 2 vezes. A primeira vez com "for" e a segunda com "while".
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que leia números inteiros e imprima sua média.
 
@@ -140,11 +168,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Escreva um programa que leia 10 números e escreva o menor valor lido é o maior valor lido.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que leia n números inteiros positivos e calcule a soma desses números.
 
@@ -152,11 +184,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Escreva um programa que declare um inteiro, inicialize-o com 0, e incremente-o de 1000 em 1000, imprimindo seu valor na tela, até que seu valor seja 100000 (cem mil).
 
 ```java
 TODO
 ```
+
+* * *
 
 ## Bônus
 
@@ -168,6 +204,8 @@ TODO
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que some os números ímpares contidos em um intervalo definido pelo usuário. O usuário define o valor inicial do intervalo e o valor final deste intervalo e o programa deve somar todos os números ímpares contidos neste intervalo. Caso o usuário digite um intervalo inválido (começando por um valor maior que o valor final) deve ser escrito uma mensagem de erro na tela, “Intervalo de valores inválido” e o programa termina.
 
