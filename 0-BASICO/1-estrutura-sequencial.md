@@ -2,18 +2,24 @@
 
 - Faça um programa que mostre a mensagem "Alô mundo" na tela.
 
+**Resolução:**
+
 <details>
-  <summary>Resolução</summary>
+  <summary>Spoiler warning</summary>
 
 ```java
 System.out.print("Alô mundo");
 ```
 </details>
 
+* * *
+
 - Faça um programa que exibe uma frase concatenada com a idade e o nome de um usuário (variáveis declaradas).
 
+**Resolução:**
+
 <details>
-  <summary>Resolução</summary>
+  <summary>Spoiler warning</summary>
 
 ```java
 public static void main(String[] args) {
@@ -33,10 +39,14 @@ public static void main(String[] args) {
 ```
 </details>
 
+* * *
+
 - Faça um programa que exibe a soma e a substração de 2 números (variáveis declaradas).
 
+**Resolução:**
+
 <details>
-  <summary>Resolução</summary>
+  <summary>Spoiler warning</summary>
 
 ```java
 public static void main(String[] args) {
@@ -60,11 +70,15 @@ public static void main(String[] args) {
 ```
 </details>
 
+* * *
+
 - Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que converta metros para centímetros.
 
@@ -72,11 +86,15 @@ TODO
 TODO
 ```
 
+* * *
+
 - Faça um Programa que recebe o quanto você ganha por hora e o número de
 horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
+**Resolução:**
+
 <details>
-  <summary>Resolução</summary>
+  <summary>Spoiler warning</summary>
 
 ```java
 public static void main(String[] args) {
@@ -96,12 +114,16 @@ public static void main(String[] args) {
 ```
 </details>
 
+* * *
+
 - Faça um programa que peça a temperatura em graus Fahrenheit, transforme e
 mostre a temperatura em graus Celsius.
 
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um Programa que receba o quanto você ganha por hora e o número de
 horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido
