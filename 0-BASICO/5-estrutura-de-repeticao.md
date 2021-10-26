@@ -3,12 +3,16 @@
 - Faça um programa que mostra na tela os números de 1 a 100.
 
 ```java
-   public class EstruturaDeRepeticao{
+   public class EstruturaDeRepeticao  {
     
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         
         int contador = 1;
-    }
+        while (contador <= 100){
+            System.out.println(contador);
+            contador++;
+        }
+     }
   }
 ```
 
