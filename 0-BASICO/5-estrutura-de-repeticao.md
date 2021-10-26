@@ -3,7 +3,17 @@
 - Faça um programa que mostra na tela os números de 1 a 100.
 
 ```java
-TODO
+   public class EstruturaDeRepeticaoExercicio1 {
+    
+     public static void main(String[] args) {
+        
+        int contador = 1;
+        while (contador <= 100){
+            System.out.println(contador);
+            contador++;
+        }
+     }
+  }
 ```
 
 - Faça um programa que mostra na tela os números de 100 a 1.
