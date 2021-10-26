@@ -3,7 +3,7 @@
 - Faça um programa que mostra na tela os números de 1 a 100.
 
 ```java
-   public class EstruturaDeRepeticao  {
+   public class EstruturaDeRepeticaoExercicio1 {
     
      public static void main(String[] args) {
         
@@ -19,7 +19,7 @@
 - Faça um programa que mostra na tela os números de 100 a 1.
 
 ```java
-TODO
+
 ```
 
 - Faça um programa para ler 5 números e mostrar o resultado da soma desses números.
