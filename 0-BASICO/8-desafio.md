@@ -11,6 +11,8 @@ em uma lista e retornar o mesmo na tela.
 TODO
 ```
 
+* * *
+
 - Entrega Média: O sistema permite adicionar mais de um funcionário e apresenta
 um menu para decidir se deverá:
   - Adicionar mais funcionários.
@@ -21,12 +23,16 @@ um menu para decidir se deverá:
 TODO
 ```
 
+* * *
+
 - Entrega Máxima: O Sistema permite excluir um funcionário usando como
 parâmetro o CPF e não permite inserir um funcionário com o CPF repetido.
 
 ```java
 TODO
 ```
+
+* * *
 
 Crie um programa para gerenciar uma lista de produtos de um estabelecimento, cada produto tem um nome e um preço. No final do programa, o usuário deve decidir se irá adicionar mais de um produto, exibir todos os produtos cadastrados ou excluir um produto pelo nome.
 
