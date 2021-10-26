@@ -38,6 +38,7 @@ TODO
          while (contador <= qtdDeNotas) {
              System.out.println("Digite sua nota " + contador + ": ");
              notaDoAluno = leitor.nextDouble();
+             media += notaDoAluno / 4;
              contador++;
          }
      }
