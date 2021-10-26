@@ -21,9 +21,9 @@ TODO
 - Escreva, usando while, um programa para calcular a média de N números. O valor de N é dado pelo usuário.
 
 ```java
-public class EstruturaDeRepeticaoExercicio4 {
+  public class EstruturaDeRepeticaoExercicio4 {
 
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         
         Scanner leitor = new Scanner(System.in);
         
@@ -31,6 +31,9 @@ public class EstruturaDeRepeticaoExercicio4 {
         int qtdDeNotas;
         double notaDoAluno ;
         double media = 0;
-    }
-}
+
+        System.out.println("Quantas notas deseja adicionar?");
+        qtdDeNotas = leitor.nextInt();
+     }
+  }
 ```
