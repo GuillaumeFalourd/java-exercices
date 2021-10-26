@@ -21,7 +21,9 @@ Tabuada de 5:
 [...]
 5 x 10 = 50    
 ```
-import java.util.Scanner;
+Resolução:
+
+```import java.util.Scanner;
 
 public class Main {
 public static void main(String[] args) {
@@ -56,8 +58,7 @@ int calculo = 0;
                 }
             }
         }
-    }
-}
+    }```
 
 - Os números primos possuem várias aplicações dentro da Computação, por exemplo na Criptografia. Um número primo é aquele que é divisível apenas por um e por ele mesmo. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
 
