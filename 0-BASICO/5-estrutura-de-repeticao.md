@@ -41,6 +41,7 @@ TODO
              media += notaDoAluno / 4;
              contador++;
          }
+         System.out.println(media);
      }
   }
 ```
