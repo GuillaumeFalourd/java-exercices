@@ -34,6 +34,12 @@ TODO
 
         System.out.println("Quantas notas deseja adicionar?");
         qtdDeNotas = leitor.nextInt();
+        
+         while (contador <= qtdDeNotas) {
+             System.out.println("Digite sua nota " + contador + ": ");
+             notaDoAluno = leitor.nextDouble();
+             contador++;
+         }
      }
   }
 ```
