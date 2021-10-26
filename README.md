@@ -5,6 +5,11 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
 ## Exercicios
 
 - [Básico](https://github.com/GuillaumeFalourd/java-exercices/tree/main/0-BASICO)
+   - Aulas
+      - [Aulas 1 e 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-1-e-2.pdf)
+      - [Aula 3](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-3.pdf)
+      - [Aula 4](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-4.pdf)
+      - [Java Básico](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/java-basico.pdf)
    - Estrutura Sequencial
      - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/1-estrutura-sequencial.md)
      - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/2-estrutura-sequencial.md)
