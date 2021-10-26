@@ -9,10 +9,15 @@ TODO
 - Faça um programa que mostra na tela os números de 100 a 1.
 
 ```java
- public class ExercicioDois {
+ public class EstruturaDeRepeticaoExercicio2 {
 
     public static void main(String[] args) {
 
+        int contador = 100;
+        while (contador >= 1){
+            System.out.println(contador);
+            contador--;
+        }
     }
  }
 ```
