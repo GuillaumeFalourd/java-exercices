@@ -31,7 +31,7 @@ Tabuada de 5:
 **Resolução:**
 
 <details>
-  <summary>Spoiler</summary>
+  <summary>Spoiler warning</summary>
   
 ```java
 import java.util.Scanner;
