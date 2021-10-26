@@ -24,8 +24,10 @@ Tabuada de 5:
 5 x 10 = 50    
 ```
 
+**Resolução:**
+
 <details>
-  <summary>Resolução</summary>
+  <summary>Spoiler</summary>
   
 ```java
 import java.util.Scanner;
