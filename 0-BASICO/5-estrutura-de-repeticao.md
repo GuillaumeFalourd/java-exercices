@@ -60,6 +60,17 @@ TODO
 
 - Escreva, usando while, um programa para calcular a média de N números. O valor de N é dado pelo usuário.
 
+
+ **Resolução:**
+
+<details>
+<summary>Spoiler warning</summary>
+
 ```java
-TODO
+
+
 ```
+
+</details>
+
+* * *
