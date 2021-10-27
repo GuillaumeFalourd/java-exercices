@@ -67,7 +67,7 @@ TODO
 <summary>Spoiler warning</summary>
 
 ```java
-    public class EstruturaDeRepeticaoExercicio4 {
+public class EstruturaDeRepeticaoExercicio4 {
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
@@ -79,6 +79,11 @@ TODO
 
         System.out.println("Quantas notas deseja adicionar?");
         qtdDeNotas = leitor.nextInt();
+
+        while (contador <= qtdDeNotas) {
+            System.out.println("Digite sua nota " + contador + ": ");
+            notaDoAluno = leitor.nextDouble();
+        }
     }
 }
 ```
