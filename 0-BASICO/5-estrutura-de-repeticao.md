@@ -71,7 +71,11 @@ TODO
 
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        
+
+        double media = 0;
+        int contador = 1;
+        double notaDoAluno ;
+        int qtdDeNotas;
     }
 }
 ```
