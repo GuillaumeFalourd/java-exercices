@@ -86,6 +86,7 @@ public class EstruturaDeRepeticaoExercicio4 {
             media += notaDoAluno / 4;
             contador++;
         }
+        System.out.println(media);
     }
 }
 ```
