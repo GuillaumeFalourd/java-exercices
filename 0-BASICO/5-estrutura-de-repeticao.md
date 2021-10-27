@@ -67,8 +67,12 @@ TODO
 <summary>Spoiler warning</summary>
 
 ```java
+    public class EstruturaDeRepeticaoExercicio4 {
 
+    public static void main(String[] args) {
 
+    }
+}
 ```
 
 </details>
