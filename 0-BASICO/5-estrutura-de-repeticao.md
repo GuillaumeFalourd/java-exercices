@@ -60,6 +60,37 @@ TODO
 
 - Escreva, usando while, um programa para calcular a média de N números. O valor de N é dado pelo usuário.
 
+
+ **Resolução:**
+
+<details>
+<summary>Spoiler warning</summary>
+
 ```java
-TODO
+public class EstruturaDeRepeticaoExercicio4 {
+
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+
+        double media = 0;
+        int contador = 1;
+        double notaDoAluno ;
+        int qtdDeNotas;
+
+        System.out.println("Quantas notas deseja adicionar?");
+        qtdDeNotas = leitor.nextInt();
+
+        while (contador <= qtdDeNotas) {
+            System.out.println("Digite sua nota " + contador + ": ");
+            notaDoAluno = leitor.nextDouble();
+            media += notaDoAluno / 4;
+            contador++;
+        }
+        System.out.println(media);
+    }
+}
 ```
+
+</details>
+
+* * *
