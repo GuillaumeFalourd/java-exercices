@@ -76,6 +76,9 @@ TODO
         int contador = 1;
         double notaDoAluno ;
         int qtdDeNotas;
+
+        System.out.println("Quantas notas deseja adicionar?");
+        qtdDeNotas = leitor.nextInt();
     }
 }
 ```
