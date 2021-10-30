@@ -22,5 +22,9 @@ public class Main {
         boolean operarMenu = true;
         int escolhaUsuario = 0;
 
+        while(operarMenu){
+            System.out.println("Para listar os países, digite: 1");
+            System.out.println("Para sair do menu, digite: 2");
+            escolhaUsuario = input.nextInt();
     }
 }
