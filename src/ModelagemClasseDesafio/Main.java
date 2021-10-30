@@ -26,5 +26,19 @@ public class Main {
             System.out.println("Para listar os países, digite: 1");
             System.out.println("Para sair do menu, digite: 2");
             escolhaUsuario = input.nextInt();
+
+            if (escolhaUsuario == 1){
+                for (Pais referencia: continente) {
+                    System.out.println("Nome: " + referencia.nome + " Extensão territorial: " + referencia.extensãoTerritorial + " População: " + referencia.tamanhoPopulacao);
+                    System.out.println("----------------------------");
+                }
+            }else if (escolhaUsuario == 2){
+                System.out.println("Obrigade, volte sempre!");
+                operarMenu = false;
+            }else{
+                System.out.println("Digite uma opção válida");
+            }
+
+        }
     }
 }
