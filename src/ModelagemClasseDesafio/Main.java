@@ -18,5 +18,9 @@ public class Main {
         continente.add(pais2);
         continente.add(pais3);
         continente.add(pais4);
+
+        boolean operarMenu = true;
+        int escolhaUsuario = 0;
+
     }
 }
