@@ -10,6 +10,12 @@ public class CalcularSalario {
         double sindicato;
         double salarioLiquido;
 
+        //Dados do salario BRuto
+        System.out.println("Por favor digite seu salario por horas: ");
+        double salarioPorHora = leitor.nextDouble();
+        System.out.println("Por favor digite as horas trbalhadas: ");
+        double horasTrabalhadas = leitor.nextDouble();
+
 
 
     }
