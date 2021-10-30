@@ -25,6 +25,10 @@ public class CalcularSalario {
         sindicato = salarioBruto * 0.05;
         double descontos = impostoDeRenda + inss + sindicato;
 
+        //calcular salario liquido
+        salarioLiquido = salarioBruto - descontos;
+
+
     }
 
 
