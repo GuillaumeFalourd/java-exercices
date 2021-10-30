@@ -113,5 +113,5 @@ INSS e 5% para o sindicato, faça um programa que nos dê respectivamente:
   - Qual o salário líquido do funcionário.
 
 ```java
-TODO
+[Resolução do Exercicio](https://github.com/dorayenCarrasquel/java-exercices.git)
 ```
