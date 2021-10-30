@@ -13,6 +13,8 @@ Imprima na tela as informações, dispostas conforme o exemplo abaixo. No exempl
 TODO
 ```
 
+* * *
+
 - Um posto está vendendo combustíveis com a seguinte tabela de descontos:
 Álcool:
   - até 20 litros, desconto de 3% por litro
@@ -26,6 +28,8 @@ Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustív
 ```java
 TODO
 ```
+
+* * *
 
 - Faça um programa que faça 5 perguntas para uma pessoa sobre um crime. As perguntas são:
   - "Telefonou para a vítima?"

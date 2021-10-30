@@ -5,6 +5,11 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
 ## Exercicios
 
 - [Básico](https://github.com/GuillaumeFalourd/java-exercices/tree/main/0-BASICO)
+   - Aulas
+      - [Aulas 1 e 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-1-e-2.pdf)
+      - [Aula 3](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-3.pdf)
+      - [Aula 4](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/aula-4.pdf)
+      - [Java Básico](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/AULAS/java-basico.pdf)
    - Estrutura Sequencial
      - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/1-estrutura-sequencial.md)
      - [Lista 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/2-estrutura-sequencial.md)
@@ -17,6 +22,16 @@ Esse repositório disponibiliza exercícios em Java para iniciantes, encontrados
    - Resumo
      - [Lista 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/7-estruturas.md)
      - [Desafio](https://github.com/GuillaumeFalourd/java-exercices/blob/main/0-BASICO/8-desafio.md)
+ - [Programação Orientada a Objetos 1](https://github.com/GuillaumeFalourd/java-exercices/tree/main/1-POO1)
+   - Aulas
+      - [Java e Orientação a Objetos 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/AULAS/Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos%20I.pdf)
+   - Herança
+      - [Exercício 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/Heran%C3%A7a/enunciado.md)
+   - Exercícios
+      - [Aquecimento](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/1-aquecimento.md)
+      - [Modelagem de classe 1](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/2-modelagem-de-classe.md)
+      - [Modelagem de classe 2](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/3-modelagem-de-classe.md)
+      - [Encapsulamento](https://github.com/GuillaumeFalourd/java-exercices/blob/main/1-POO1/4-encapsulamento.md)
 
 ## Fontes
 
