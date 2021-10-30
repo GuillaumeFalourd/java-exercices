@@ -13,5 +13,10 @@ public class Main {
         Pais pais2 = new Pais("França", 3455778,1200000);
         Pais pais3 = new Pais("Inglaterra", 23888899,4500000);
         Pais pais4 = new Pais("Brasil", 998877665,220000000);
+
+        continente.add(pais1);
+        continente.add(pais2);
+        continente.add(pais3);
+        continente.add(pais4);
     }
 }
