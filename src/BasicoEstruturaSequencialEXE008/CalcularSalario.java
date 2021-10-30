@@ -16,6 +16,8 @@ public class CalcularSalario {
         System.out.println("Por favor digite as horas trbalhadas: ");
         double horasTrabalhadas = leitor.nextDouble();
 
+        //calculo de Salario Bruto
+        double salarioBruto = salarioPorHora * horasTrabalhadas;
 
 
     }
