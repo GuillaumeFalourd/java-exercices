@@ -19,6 +19,11 @@ public class CalcularSalario {
         //calculo de Salario Bruto
         double salarioBruto = salarioPorHora * horasTrabalhadas;
 
+        //calcular descontos
+        impostoDeRenda = salarioBruto * 0.11;
+        inss = salarioBruto * 0.08;
+        sindicato = salarioBruto * 0.05;
+        double descontos = impostoDeRenda + inss + sindicato;
 
     }
 
