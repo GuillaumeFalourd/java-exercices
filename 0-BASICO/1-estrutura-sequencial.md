@@ -134,6 +134,8 @@ INSS e 5% para o sindicato, faça um programa que nos dê respectivamente:
   - Quanto pagou ao sindicato.
   - Qual o salário líquido do funcionário.
 
+**Resolução:**
+
 <details>
   <summary>Spoiler warning</summary>
 
