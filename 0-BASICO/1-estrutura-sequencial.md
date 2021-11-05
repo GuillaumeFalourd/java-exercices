@@ -134,6 +134,9 @@ INSS e 5% para o sindicato, faça um programa que nos dê respectivamente:
   - Quanto pagou ao sindicato.
   - Qual o salário líquido do funcionário.
 
+<details>
+  <summary>Spoiler warning</summary>
+
 ```java
 public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
@@ -181,5 +184,6 @@ public static void main(String[] args) {
         }
 
 
-        }
+}
 ```
+</details>
