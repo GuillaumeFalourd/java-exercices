@@ -48,6 +48,76 @@ public class Main {
 
   - BONUS: De forma que o desperdício de tinta seja menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
 
+**Resolução:**
+
+<details>
+  <summary>Spoiler warning</summary>
+
 ```java
-TODO
+import java.util.Scanner;
+import java.lang.Math;
+
+public class Main {
+    public static void main(String[] args) {
+        double tintaLitrosPreco = 80.0;
+        double tintaGaloesPreco = 25.0;
+        double tintaLitros = 18.0;
+        double tintaGaloes = 3.6;
+        Scanner scanner = new Scanner(System.in);
+        double areaPintar = 0.0;
+
+
+        try {
+            System.out.println("Digite o tamanho em metros quadrados da área a ser pintada: ");
+            areaPintar = scanner.nextDouble();
+
+            if (areaPintar <= 0) {
+                System.out.println("Por favor, digite um valor maior que zero.");
+                return;
+            }
+
+            // 10% de folga
+            double areaComFolga = areaPintar * 1.1;
+            double litrosNecessarios = areaComFolga / 6;
+
+            // Apenas latas
+            int latasApenas = (int) Math.ceil(litrosNecessarios / tintaLitros);
+            double custoLatas = latasApenas * tintaLitrosPreco;
+
+            // Apenas galões
+            int galoesApenas = (int) Math.ceil(litrosNecessarios / tintaGaloes);
+            double custoGaloes = galoesApenas * tintaGaloesPreco;
+
+            // Mistura para menor desperdício
+            int latasMistura = (int) (litrosNecessarios / tintaLitros);
+            double restante = litrosNecessarios - (latasMistura * tintaLitros);
+            int galoesMistura = (int) Math.ceil(restante / tintaGaloes);
+            double custoMistura = (latasMistura * tintaLitrosPreco) + (galoesMistura * tintaGaloesPreco);
+
+            System.out.println("\n--- Resultado ---");
+            System.out.printf("Área total com folga de 10%%: %.2f m*2\n", areaComFolga);
+            System.out.printf("Litros necessários: %.2f L\n\n", litrosNecessarios);
+
+            System.out.println("1. Comprar apenas latas de 18L:");
+            System.out.printf("   %d lata(s) - R$ %.2f\n", latasApenas, custoLatas);
+
+            System.out.println("2. Comprar apenas galões de 3.6L:");
+            System.out.printf("   %d galão(ões) - R$ %.2f\n", galoesApenas, custoGaloes);
+
+            System.out.println("3. Mistura (menor desperdício):");
+            System.out.printf("   %d lata(s) e %d galão(ões) - R$ %.2f\n", latasMistura, galoesMistura, custoMistura);
+
+        } catch (Exception e) {
+            System.out.println("Entrada inválida. Por favor, digite um número válido.");
+        }
+
+        scanner.close();
+
+        
+    }
+}
 ```
+
+</details>
+
+
