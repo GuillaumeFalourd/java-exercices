@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Professor extends Funcionario {
 
-    private String nivelGraduação;
+    private String nivelGraduacao;
 	private String diciplinaMinistra;
 	private Integer quantAlunos;
 	private Integer quantTurmas;
@@ -18,18 +18,18 @@ public class Professor extends Funcionario {
 
 	public Professor(String nome, String cpf, Integer numRegistro, String orgaoLotacao, Double salario, String nivelGraduação, String diciplinaMinistra, Integer quantAlunos, Integer quantTurmas) {
 		super(nome, cpf, numRegistro, orgaoLotacao, salario);
-		this.nivelGraduação = nivelGraduação;
+		this.nivelGraduacao = nivelGraduação;
 		this.diciplinaMinistra = diciplinaMinistra;
 		this.quantAlunos = quantAlunos;
 		this.quantTurmas = quantTurmas;
 	}
 
-	public String getNivelGraduação() {
-		return nivelGraduação;
+	public String getNivelGraduacao() {
+		return nivelGraduacao;
 	}
 
-	public void setNivelGraduação(String nivelGraduação) {
-		this.nivelGraduação = nivelGraduação;
+	public void setNivelGraduacao(String nivelGraduacao) {
+		this.nivelGraduacao = nivelGraduacao;
 	}
 
 	public String getDiciplinaMinistra() {
@@ -64,7 +64,7 @@ public class Professor extends Funcionario {
    public void  adicionaTurma(Turma turma ) { 
 	   lista.add(turma);
 	   this.quantTurmas++;
-	   this.quantAlunos += turma.getAlunos();
+	   this.quantAlunos += turma.getNumeroDeAlunos();
 	   
 	   
    }
